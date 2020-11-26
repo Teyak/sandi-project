@@ -52,8 +52,15 @@ pip2 install lolcat
 sleep 0.03
 echo
 echo
-echo $green"memproses..."
-sleep 0.04
-echo
-echo
-echo $white"berhasill..!!"
+echo $green"kembali ke tools?"
+echo $yellow"(y/n)"
+echo $cyan
+read -p "root@team =>" bro
+
+if [ $bro = y ] || [ $bro = y ]
+then
+clear
+git clone https/github.com/Teyak/TOOLS
+cd TOOLS
+sh tools.sh
+fi
